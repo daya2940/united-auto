@@ -44,19 +44,24 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <img src={logo} alt="" height="96px" width="131px" />
+          <img
+            src={logo}
+            alt=""
+            height="96px"
+            width="131px"
+            className="d-none d-sm-none d-md-block"
+          />
           <button
-            className="btn btn-lg"
+            className="btn btn-lg d-flex d-none d-sm-none d-md-block"
             style={{
               background: "#161616",
               color: "white",
-              width: "238px",
               height: "57px",
             }}
           >
             FIND A PART NOW
           </button>
-          <div>
+          <div className="d-none d-sm-none d-md-block">
             <img src={phone} alt="" />
             +91 <span className="ml-2">9317202235</span>
           </div>
